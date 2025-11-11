@@ -1,0 +1,7 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://root:root@localhost:27017/test-db?authSource=admin
+
+  cache:
+    type: none

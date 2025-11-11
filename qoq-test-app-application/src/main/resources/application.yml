@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: QoQ-Test-App
+
+  data:
+    mongodb:
+      uri: ${DB_URI:mongodb://root:root@localhost:27017/qoq-test-app?authSource=admin}
